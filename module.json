@@ -28,12 +28,12 @@
             {
                 "id": "dice-so-nice",
                 "type": "module",
-                "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json",
+                "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/develop/module/module.json",
                 "compatibility": {}
             }
         ]
     },
     "url": "https://github.com/MattCarval/roll-this-on-a-dice",
-    "manifest": "https://raw.githubusercontent.com/MattCarval/roll-this-on-a-dice/main/module.json",
+    "manifest": "https://raw.githubusercontent.com/MattCarval/roll-this-on-a-dice/develop/module.json",
     "download": ""
 }
