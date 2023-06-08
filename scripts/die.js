@@ -1,10 +1,13 @@
-// eslint-disable-next-line no-undef
+/* eslint-disable no-undef */
+/* eslint-disable no-param-reassign */
+
 export default class dadoDaResposta extends Die {
     constructor(termData) {
-        // eslint-disable-next-line no-param-reassign
         termData.faces = 6
         super(termData)
     }
 
+    /* -------------------------------------------- */
+    /** @override */
     static DENOMINATION = 'h'
 }
