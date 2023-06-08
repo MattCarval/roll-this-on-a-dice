@@ -1,5 +1,7 @@
+/* eslint-disable import/extensions */
 /* eslint-disable no-undef */
-import dadoDaResposta from './die'
+
+import dadoDaResposta from './die.js'
 
 const moduleName = 'roll-this-on-a-die'
 
