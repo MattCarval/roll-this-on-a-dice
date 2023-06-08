@@ -135,12 +135,12 @@ Hooks.once('diceSoNiceReady', dice3d => {
             `modules/${moduleName}/images/ptbr-black/d6_depress.png`
         ],
         bumpMaps: [
-            `modules/${moduleName}/images/die_background.png`,
-            `modules/${moduleName}/images/die_background.png`,
-            `modules/${moduleName}/images/die_background.png`,
-            `modules/${moduleName}/images/die_background.png`,
-            `modules/${moduleName}/images/die_background.png`,
-            `modules/${moduleName}/images/die_background.png`
+            `modules/${moduleName}/images/d1_background.png`,
+            `modules/${moduleName}/images/d2_background.png`,
+            `modules/${moduleName}/images/d3_background.png`,
+            `modules/${moduleName}/images/d4_background.png`,
+            `modules/${moduleName}/images/d5_background.png`,
+            `modules/${moduleName}/images/d6_background.png`
         ]
     })
 })
