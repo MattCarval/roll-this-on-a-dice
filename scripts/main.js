@@ -17,14 +17,16 @@ function resultToChatMessage(rollResult) {
         6: 'fearful'
     }
 
-    const returnChatMessage = dieSide =>
-        `<h1>${game.i18n.localize(
+    const returnChatMessage = dieSide => {
+        console.log('teste matheus', dieSide)
+        return `<h1>${game.i18n.localize(
             `roll-this-on-a-die.tips.${mapMoodDieFaces[dieSide]}.title`
         )}</h1>`
-
-    ChatMessage.create({
-        content: returnChatMessage(rollResult)
-    })
+    }
+    console.log('teste retorno', returnChatMessage(rollResult))
+    // ChatMessage.create({
+    //     content: returnChatMessage(rollResult)
+    // })
 }
 
 Hooks.once('init', () => {
