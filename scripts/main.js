@@ -108,16 +108,16 @@ Hooks.on('diceSoNiceRollComplete', chatMessageID => {
 })
 
 Hooks.once('diceSoNiceReady', dice3d => {
-    const dieThemeKey = game.settings.get('roll-this-on-a-die', 'theme')
-    const currentLanguage = game.settings.get('core', 'language')
-    let dieThemePath
+    // const dieThemeKey = game.settings.get('roll-this-on-a-die', 'theme')
+    // const currentLanguage = game.settings.get('core', 'language')
+    // let dieThemePath
 
-    if (currentLanguage === 'pt-BR') {
-        // TRANSLATION REQUIRED
-        dieThemePath = dieThemeKey.replace('en-', 'ptbr-')
-    } else {
-        dieThemePath = dieThemeKey
-    }
+    // if (currentLanguage === 'pt-BR') {
+    //     // TRANSLATION REQUIRED
+    //     dieThemePath = dieThemeKey.replace('en-', 'ptbr-')
+    // } else {
+    //     dieThemePath = dieThemeKey
+    // }
 
     dice3d.addSystem(
         { id: 'roll-this-on-a-die', name: 'Roll this on a die' },
@@ -127,20 +127,20 @@ Hooks.once('diceSoNiceReady', dice3d => {
         type: 'd6',
         system: 'roll-this-on-a-die',
         labels: [
-            `modules/${moduleName}/images/${dieThemePath}/d1_rage.png`,
-            `modules/${moduleName}/images/${dieThemePath}/d2_sarcasm.png`,
-            `modules/${moduleName}/images/${dieThemePath}/d3_hollow.png`,
-            `modules/${moduleName}/images/${dieThemePath}/d4_sulking.png`,
-            `modules/${moduleName}/images/${dieThemePath}/d5_fearful.png`,
-            `modules/${moduleName}/images/${dieThemePath}/d6_depress.png`
+            `modules/${moduleName}/images/ptbr-black/d1_rage.png`,
+            `modules/${moduleName}/images/ptbr-black/d2_sarcasm.png`,
+            `modules/${moduleName}/images/ptbr-black/d3_hollow.png`,
+            `modules/${moduleName}/images/ptbr-black/d4_sulking.png`,
+            `modules/${moduleName}/images/ptbr-black/d5_fearful.png`,
+            `modules/${moduleName}/images/ptbr-black/d6_depress.png`
         ],
         bumpMaps: [
-            `modules/${moduleName}/images/${dieThemePath}/die_background.png`,
-            `modules/${moduleName}/images/${dieThemePath}/die_background.png`,
-            `modules/${moduleName}/images/${dieThemePath}/die_background.png`,
-            `modules/${moduleName}/images/${dieThemePath}/die_background.png`,
-            `modules/${moduleName}/images/${dieThemePath}/die_background.png`,
-            `modules/${moduleName}/images/${dieThemePath}/die_background.png`
+            `modules/${moduleName}/images/die_background.png`,
+            `modules/${moduleName}/images/die_background.png`,
+            `modules/${moduleName}/images/die_background.png`,
+            `modules/${moduleName}/images/die_background.png`,
+            `modules/${moduleName}/images/die_background.png`,
+            `modules/${moduleName}/images/die_background.png`
         ]
     })
 })
