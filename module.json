@@ -35,5 +35,5 @@
     },
     "url": "https://github.com/MattCarval/roll-this-on-a-dice",
     "manifest": "https://raw.githubusercontent.com/MattCarval/roll-this-on-a-dice/develop/module.json",
-    "download": ""
+    "download": "https://codeload.github.com/MattCarval/roll-this-on-a-dice/zip/develop"
 }
