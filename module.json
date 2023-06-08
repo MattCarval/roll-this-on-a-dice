@@ -1,0 +1,39 @@
+{
+    "id": "roll-this-on-a-die",
+    "title": "Roll this on a die",
+    "description": "roll everything as a die!",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10"
+    },
+    "authors": [
+        {
+            "name": "MattCarval",
+            "url": "https://github.com/MattCarval",
+            "flags": {}
+        }
+    ],
+    "esmodules": ["./scripts/main.js"],
+    "styles": [],
+    "languages": [
+        {
+            "lang": "pt-BR",
+            "name": "Português Brasileiro",
+            "path": "lang/pt-BR.json"
+        }
+    ],
+    "relationships": {
+        "requires": [
+            {
+                "id": "dice-so-nice",
+                "type": "module",
+                "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json",
+                "compatibility": {}
+            }
+        ]
+    },
+    "url": "https://github.com/MattCarval/roll-this-on-a-dice",
+    "manifest": "https://raw.githubusercontent.com/MattCarval/roll-this-on-a-dice/main/module.json",
+    "download": ""
+}

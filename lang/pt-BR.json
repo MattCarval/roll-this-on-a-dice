@@ -1,0 +1,45 @@
+{
+    "roll-this-on-a-die": {
+        "settings": {
+            "theme": {
+                "name": "Tema",
+                "hint": "Altere o tema do dado. ATENÇÃO! Ao alterar algo o Foundry VTT será recarregado."
+            }
+        },
+        "keybindings": {
+            "name": "Roll this on a die",
+            "hint": "Esse atalho vai rolar o dado."
+        },
+        "tips": {
+            "rage": {
+                "title": "Raiva",
+                "content": "Você é puramente raiva."
+            },
+            "sarcasm": {
+                "title": "Sarcasmo",
+                "content": "Você é puramente o sarcasmo."
+            },
+            "empty": {
+                "title": "Vazio",
+                "content": "Você é o puro vazio."
+            },
+            "depressive": {
+                "title": "Depressivo(a)",
+                "content": "Você é a própria depressão."
+            },
+            "sulking": {
+                "title": "Emburrado(a)",
+                "content": "Você é pior que uma criança birrenta."
+            },
+            "fearful": {
+                "title": "Medroso(a)",
+                "content": "Você é o puro medo, sua sombra te assusta."
+            }
+        },
+        "dice": {
+            "black": {
+                "label": "Preto"
+            }
+        }
+    }
+}
